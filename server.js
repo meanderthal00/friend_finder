@@ -9,7 +9,7 @@ var path = require("path");
 var app = express();
 
 // determining which port to use
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 // data parsing
 app.use(bodyParser.urlencoded({ extended: false}));
