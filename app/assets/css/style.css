@@ -7,7 +7,19 @@ body{
     background-color: #90caf9;
     
 }
+#home1img{
+    height: 500px;
+}
+#home2img{
+    height: 900px;
+}
+#survey1img{
+    height:700px;
+}
 
+#survey2img{
+    height: 900px;
+}
 #section1{
     color: white;
 } 
