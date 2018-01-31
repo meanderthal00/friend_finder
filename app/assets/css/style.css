@@ -1,0 +1,20 @@
+body{
+    font-size: 24px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+#sub1Btn{
+    background-color: #90caf9;
+    
+}
+.parallax-container {
+    height: 700px;
+  }
+
+#section1{
+    color: white;
+} 
+#links{
+    font-size: small;
+    color: darkslategrey;
+}
