@@ -2,6 +2,9 @@ body{
     font-size: 24px;
     font-family: 'Sedgwick Ave', cursive;
 }
+label {
+    font-size: 24px;
+}
 
 #sub1Btn{
     background-color: #90caf9;
