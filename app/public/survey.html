@@ -140,7 +140,7 @@
                 </form>
         </div>
         <div class="col s6 offset-s4"> 
-                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <button class="btn waves-effect waves-light" id="survButton" type="submit" name="action">Submit
                         <i class="material-icons touch_app">send</i>
                       </button>
         </div>
@@ -153,7 +153,25 @@
         </div>
     </div>
 
+<!-- Modal structure -->
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+
+      <h4>Your Results:</h4>
+      <div id="class-name"></div>
+      <div id="class-image"></div>
+      <div id="class-message"></div>
+
+      
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
 
 
     <!--JQ link here-->
