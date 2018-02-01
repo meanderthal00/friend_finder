@@ -1,5 +1,4 @@
-// loading data from resources
- var classData = require("..data/classes");
+
 
 //  ROUTING
 
