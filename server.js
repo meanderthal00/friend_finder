@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // setting static dir
-app.use(express.static(path.join(__dirname,"/app/public")));
+app.use(express.static(path.join(__dirname,"app/public")));
 
 // routing
 require("./app/routing/htmlRoutes.js")(app);
