@@ -27,10 +27,9 @@ $("#survButton").on("click", function (event) {
   console.log(surveyScores + " Scores");
 
   // posting the collected scores
-$.post("/api/classes",      ,
- function (data) {
+// $.post("/api/classes",      ,
+//  function (data) {
 
  }
+// )
 )
-
-})
