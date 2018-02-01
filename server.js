@@ -11,12 +11,13 @@ var app = express();
 // determining which port to use
 var PORT = process.env.PORT || 8080;
 
-// data parsing
-app.use(bodyParser.urlencoded({ extended: false}));
+
+//For BodyParser
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // setting static dir
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname,"/app/public")));
 
 // routing
 require("./app/routing/htmlRoutes.js")(app);
